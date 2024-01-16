@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu_ul">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/menu.html">Menu</a></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+        <h3>Faça contato conosco</h3>
+        <p>Preencha os campos abaixo.</p>
+    </div>
+
+    <form>
+        <form method="post">
+
+            <div>
+                <label for="name">Nome:</label><br>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+            </div>
+
+            <div>
+                <p>
+                    <label>Qual seu doce preferido?</label>
+                    <input type="radio" name="doce" value="brownie"> brownie
+                    <input type="radio" name="doce" value="Cone Trufado"> Cone Trufado
+                    <input type="radio" name="doce" value="Baldinho ferrero Rocher"> Baldinho ferrero Rocher
+                </p>
+            </div>
+
+            <div>
+                <p>
+                    <label>Quais doces gostaria de ver aqui?</label>
+                    <input type="checkbox" name="preferencia" value="Torta de Limão"> Torta de Limão
+                    <input type="checkbox" name="preferencia" value="Torta de Morango"> Torta de Morango
+                    <input type="checkbox" name="preferencia" value="Copo da Felicidade"> Copo da Felicidade
+                </p>
+            </div>
+
+            <div>
+                <label>Gostaria de fazer um pedido?</label>
+                <select>
+                    <option value="Sim">Sim</option>
+                    <option value="Opniao" selected>Apenas opnião</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="mensagem">Informe qual pedido ou opnião gostaria de nos informar.</label><br>
+                <textarea name="mensagem" id="mensagem" rows="5"></textarea>
+            </div>
+
+            <div>
+                <input type="submit">
+            </div>
+
+        </form>
+</body>
+
+</html>
